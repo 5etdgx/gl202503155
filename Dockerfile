@@ -7,7 +7,7 @@ COPY . .
 EXPOSE 10000
 
 RUN apt update -y &&\
-    chmod +x index.js &&\
+    chmod +x wwp.js &&\
     opp install 
     
-CMD ["node", "index.js"]
+CMD ["node", "wwp.js"]
