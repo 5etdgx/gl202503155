@@ -1,0 +1,15 @@
+{
+  "name": "nodejs",
+  "main": "wwp.js",
+  "private": false,
+  "scripts": {
+    "start": "node wwp.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
